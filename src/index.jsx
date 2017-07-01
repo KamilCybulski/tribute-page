@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-// import reducer from './reducers';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import App from './components/App';
 import './style.scss';
 
@@ -9,7 +9,9 @@ const root = document.getElementById('root');
 
 render(
   <AppContainer>
-    <App />
+    <MuiThemeProvider>
+      <App />
+    </MuiThemeProvider>
   </AppContainer>,
   root,
 );
