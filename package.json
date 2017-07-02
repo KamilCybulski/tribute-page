@@ -1,9 +1,9 @@
 {
-  "name": "simple-react-app",
+  "name": "tribute-page",
   "version": "1.0.0",
-  "description": "react, react-router, hot-reload, sass.",
+  "description": "Tribut page project for fcc 48h speedrun",
   "main": "index.js",
-  "author": "Francesco Agnoletto",
+  "author": "kamyl",
   "license": "MIT",
   "scripts": {
     "start": "NODE_ENV=development webpack-dev-server",
